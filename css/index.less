@@ -1,0 +1,172 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 750px;
+    background-color: #f2f4f7;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: #707070;
+}
+p {
+    margin: 0;
+}
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+.wrap {
+    overflow: hidden;
+    background-color: #fff;
+}
+.header {
+    height: 1.066667rem;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+    line-height: 1.066667rem;
+    font-size: .466667rem;
+    color: #1c1c1c;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+        flex: 33.33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: .533333rem;
+        img {
+            width: 1.853333rem;
+            height: 1.853333rem;
+        }
+        span {
+            font-size: .333333rem;
+            color: #707070;
+        }
+    }
+
+}
+.go {
+    overflow: hidden;
+    width: 9.626667rem;
+    height: 1.893333rem;
+    border-radius: .946667rem;
+    margin: .533333rem .133333rem .533333rem .24rem;
+    img {
+        width: 100%;
+    }
+}
+.content {
+    padding: .533333rem .32rem;
+    background-color: #fff;
+    margin-top: .133333rem;
+    .con-hd {
+        display: flex;
+        justify-content: space-between;
+        height: .506667rem;
+        line-height: .506667rem;
+        h4 {
+            margin: 0;
+            font-size: .32rem;
+            color: #333;
+            img {
+                width: .506667rem;
+                height: .506667rem;
+                vertical-align: middle;
+            }
+        }
+        .more {
+            font-size: .293333rem;
+            color: #999;
+        }
+    }
+    .get_job_focus {
+        position: relative;
+        margin-top: .453333rem;
+        .swiper-container {
+            width: 7.2rem;
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+          
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                flex-direction: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                transition: 300ms;
+                transform: scale(0.8);
+                opacity: .5;
+                a {
+                    width: 4.506667rem;
+                    height: 5.013333rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                p {
+                    width: 4.506667rem;
+                    margin-top: .32rem;
+                    font-size: .333333rem;
+                    color: #333;
+                }
+              }
+            .swiper-slide-active,.swiper-slide-duplicate-active{
+                transform: scale(1);
+                opacity: 1;
+                z-index: 2;
+            }
+        }
+          
+    }
+}
+.content:nth-child(3) {
+    margin-bottom: 1.466667rem;
+}
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.466667rem;
+    background-color: pink;
+    z-index: 3;
+    box-sizing: border-box;
+    padding: .133333rem;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        img {
+            width: .52rem;
+            height: .546667rem;
+        }
+        p {
+            font-size: .293333rem;
+            color: #666;
+            margin-top: .133333rem;
+        }
+    }
+}
+
+
+
